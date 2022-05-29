@@ -1,0 +1,14 @@
+﻿<Window x:Class="PSD.load"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSD"
+        mc:Ignorable="d"
+        Title="load" Height="200" Width="300" WindowStyle="None" MaxWidth="300">
+    <Grid MinWidth="300" MinHeight="200" Height="100" PreviewMouseDown="Grid_PreviewMouseDown">
+        <TextBlock TextWrapping="Wrap" Text="Please wait until the file is extracted" FontSize="24" Margin="0,42,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="222"/>
+        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Center" Height="25" Margin="0,141,0,0" VerticalAlignment="Top" Width="222" ValueChanged="ProgressBar1_ValueChanged"/>
+
+    </Grid>
+</Window>
